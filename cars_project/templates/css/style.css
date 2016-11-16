@@ -1,0 +1,87 @@
+/* Navbar Color Codes */
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #da020e;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #000000;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #000000;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #222222;
+    background-color: #ffce00;
+}
+
+/* Strip and Pads*/
+.pad0 {
+	padding: 0px;
+}
+
+.strip-black {
+	padding: 5px 0px;
+	background-color: #000000;
+}
+
+.strip-red {
+	padding: 5px 0px;
+	background-color: #da020e;
+}
+
+
+/* Home Banner */
+.banner {
+	padding: 0px;
+}
+
+.banner img {
+	width: 100%;
+	height: 500px;
+}
+
+@media (max-width: 768px){
+	.banner img {
+		height: 350px;
+	}
+}
+
+.table {
+	border-radius: 5px;
+    width: 50%;
+    height: 50%;
+    margin: 30px auto;
+    float: none;
+    padding-top: 30px;
+}
+
+.test {
+	margin-top: 100px;
+	width: 100%;
+}
+
+.test1 {
+	width: 100%;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+footer h6 {
+	text-align: center;
+}
